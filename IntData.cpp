@@ -1,5 +1,14 @@
-using namespace std
-int main()
+#include "IntData.h"
+IntData::IntData(int data)
 {
-cout <<"Hello, World!"
+ m_data = data;
+}
+
+IntData::~IntData()
+{
+}
+
+void IntData::print()
+{
+printf("%d\n", m_data);
 }

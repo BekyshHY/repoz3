@@ -1,5 +1,14 @@
-using namespace std
-int main()
+#include "DoubleData.h"
+DoubleData::DoubleData(double data)
 {
-cout <<"Hello, World!"
+ d_data = data;
+}
+
+DoubleData::~DoubleData()
+{
+}
+
+void DoubleData::print()
+{
+printf("%d\n", d_data);
 }

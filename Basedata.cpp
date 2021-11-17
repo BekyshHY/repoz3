@@ -1,5 +1,4 @@
 using namespace std
-int main()
-{
-cout <<"Hello, World!"
-}
+#include "BaseData.h"
+BaseData::BaseData() {}
+BaseData::~BaseData() {}
